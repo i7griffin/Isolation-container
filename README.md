@@ -30,3 +30,8 @@ Runs a process in isolation using:
 ## Why
 
 Built to understand what's actually happening under `docker run` — namespaces, cgroups, and seccomp at the syscall level.
+
+
+
+ --- after isolating the child process from the parent process , we need to give or mount the child process a fake root directory and file system 
+ --- for that we need a minimal root file system to install and mount it for the child process we isolated to fake it by giving it its own environment
