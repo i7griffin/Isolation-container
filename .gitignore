@@ -1,0 +1,29 @@
+# Generated root filesystem
+myrootfs/
+
+# Generated files inside rootfs
+rootfs/*
+!rootfs/.gitkeep
+
+# Build outputs
+build/
+*.o
+*.out
+*.so
+*.a
+
+# Generated executables
+isolation_container
+hello
+busybox
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
